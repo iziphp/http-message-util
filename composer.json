@@ -6,6 +6,14 @@
     "autoload": {
         "psr-4": {
             "PhpStandard\\Http\\Message\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpStandard\\Http\\Message\\": "tests/"
         }
     },
     "authors": [
