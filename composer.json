@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PhpStandard\\Http\\Message": "src/"
+            "PhpStandard\\Http\\Message\\": "src/"
         }
     },
     "authors": [
@@ -31,7 +31,6 @@
         "analyse": [
             "@phpstan",
             "@phpcs",
-            "@phpmd",
             "@unit-test"
         ],
         "fix": [

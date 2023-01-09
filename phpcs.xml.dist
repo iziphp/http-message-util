@@ -17,7 +17,10 @@
     <rule ref="PSR12" />
 
     <!-- Run against the PHPCompatibility ruleset -->
-    <rule ref="PHPCompatibility" />
+    <rule ref="PHPCompatibility">
+        <!-- This rule causes incorrect report in enums -->
+        <exclude name="PHPCompatibility.Variables.ForbiddenThisUseContexts.OutsideObjectContext" />
+    </rule>
 
     <!-- Check for cross-version support for PHP 8.1 and higher. -->
     <config name="testVersion" value="8.1-" />
