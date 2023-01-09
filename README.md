@@ -1,9 +1,9 @@
-# phpstandard/library
+# phpstandard/http-message-util
 
-Skeleton to create a composer library
+Utility enums to facilitate common operations of PSR-7
 
 ## Installation
 
 ```bash
-composer create-project phpstandard/library
+composer require phpstandard/http-message-util
 ```

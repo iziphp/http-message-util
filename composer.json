@@ -1,11 +1,11 @@
 {
-    "name": "phpstandard/library",
-    "description": "Skeleton to create a composer library",
-    "type": "project",
+    "name": "phpstandard/http-message-util",
+    "description": "Utility enums to facilitate common operations of PSR-7",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PhpStandard\\PackageNamespace\\": "src/"
+            "PhpStandard\\Http\\Message": "src/"
         }
     },
     "authors": [
