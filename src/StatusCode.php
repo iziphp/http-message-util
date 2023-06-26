@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Http\Message;
+namespace Easy\Http\Message;
 
 /**
  * Enumaration of HTTP status codes.
  *
  * @link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
  */
-enum StatusCodeEnum: int
+enum StatusCode: int
 {
     /**
      * ------------------------------------------------------------------------

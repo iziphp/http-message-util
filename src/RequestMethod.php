@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Http\Message;
+namespace Easy\Http\Message;
 
 /**
  * Enumaration of HTTP request methods
  *
  * @link https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
  */
-enum RequestMethodEnum: string
+enum RequestMethod: string
 {
     /**
      * The GET method requests a representation of the specified resource.

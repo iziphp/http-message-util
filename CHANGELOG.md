@@ -20,5 +20,5 @@ and this project adheres to [Semantic Versioning].
 
 <!-- Versions -->
 
-[unreleased]: https://github.com/phpstandard/library/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/phpstandard/library/releases/tag/v1.0.0
+[unreleased]: https://github.com/iziphp/http-message-util/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/iziphp/http-message-util/releases/tag/v1.0.0
